@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background-color:#f0f2f5;
+
+
+}
+.container{
+    
+    margin:60px 10px;
+    display: flex;
+    align-items: center;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+.leftsection{
+width: 40%;
+}
+h1{ font-family: "San Francisco", Arial, sans-serif;
+
+    
+    color:#0866ff;
+    font-size: 70px;
+}
+h3{
+   font-family:  SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+
+    color: #1c1e21;
+    font-size: 20px;
+  
+}
+.Rig{
+    width: 90%;
+    margin-top: 50px; 
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+  
+}
+.log{
+    width: 40%;
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+   background-color: #fff;
+   width:450px;
+   height: 370px;
+
+ box-shadow:  -10px -10px 15px rgba(0, 0, 0,0.1),
+ 10px 10px 15px rgba(0,0,0,0.1) ;
+ border-radius: 10px;
+}
+form{
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+   padding: 15px 0px;
+}
+input{
+    width: 380px;
+    height: 50px;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    border-radius: 10px;
+}
+button{
+    width: 380px;
+    height: 50px;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    color:white;
+    background-color: #0866ff;
+    font-size: 18px;
+    border-radius: 10px;
+}
+p{
+    color: royalblue;
+    font-size:15px;
+}
+hr{
+    border: 1px solid #ccc;
+    width: 320px;
+    margin: 20px 0px;
+}
+.creat{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+   font-size: 18px;
+   width: 220px;
+   height: 50px;
+   text-align: center;
+   font-weight: bold;
+   color:white;
+   background:rgb(41, 201, 41);
+   border-radius: 10px;
+}
+span{
+    margin: 20px 0px;
+    font-size: 18px;
+    font-weight: 20px;
+}
